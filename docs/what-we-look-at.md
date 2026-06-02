@@ -14,7 +14,7 @@ Licensee uses [a series of regular expressions](https://github.com/licensee/lice
 * `COPYRIGHT`
 * `UNLICENSE`
 
-Warning: If the project has multiple license matches (e.g. a package file match, a file named license or similar that matches the regular expressions) that won't only match one well known license (see below), Licensee won't return a license for the project, but all matches are returned in the licenses array.
+Warning: If the project has multiple license matches (e.g. a package file match, a file named license or similar that matches the regular expressions) that don't only match one well known license (see below), Licensee won't return a license for the project, but all matches are returned in the licenses array.
 
 ### `LICENSES/` directory
 
